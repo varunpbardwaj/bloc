@@ -7,12 +7,23 @@
 		"name": "Varun Bardwaj",
 		"url": "https://varunbardwaj.me"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/varunpbardwaj/bloc.git"
+	},
 	"publisher": "varunbardwaj",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"engines": {
 		"vscode": "^1.38.0"
 	},
 	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Dark Theme",
+		"Blue Theme",
+		"Pink Theme",
+		"Theme",
 		"Themes"
 	],
 	"contributes": {
