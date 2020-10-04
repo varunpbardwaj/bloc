@@ -1,0 +1,27 @@
+{
+	"name": "bloc",
+	"displayName": "Bloc",
+	"description": "A theme for VS Code.",
+	"icon": "assets/logo.png",
+	"author": {
+		"name": "Varun Bardwaj",
+		"url": "https://varunbardwaj.me"
+	},
+	"publisher": "varunbardwaj",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Bloc",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Bloc-color-theme.json"
+			}
+		]
+	}
+}
