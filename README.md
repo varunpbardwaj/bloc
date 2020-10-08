@@ -11,21 +11,22 @@
 > How Bloc look like?
 
 <br />
-JavaScript
-<br />
-<br />
+
+**JavaScript**
+
 <img src="https://raw.githubusercontent.com/varunpbardwaj/bloc/master/js.png"  alt="JS">
 <br />
 <br />
-<br />
-CSS
-<br />
-<br />
+
+**CSS**
+
 <img src="https://raw.githubusercontent.com/varunpbardwaj/bloc/master/css.png"  alt="CSS">
 <br />
 <br />
-<br />
-JSON
-<br />
-<br />
+
+**JSON**
+
 <img src="https://raw.githubusercontent.com/varunpbardwaj/bloc/master/json.png"  alt="JSON">
+<br />
+
+### Made with ❤️ &nbsp;in 🇮🇳
