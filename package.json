@@ -1,7 +1,7 @@
 {
 	"name": "bloc",
 	"displayName": "Bloc",
-	"description": "A theme for VS Code.",
+	"description": "Monochrome dark themes for VS Code.",
 	"icon": "assets/logo.png",
 	"author": {
 		"name": "Varun Bardwaj",
@@ -12,7 +12,7 @@
 		"url": "https://github.com/varunpbardwaj/bloc.git"
 	},
 	"publisher": "varunbardwaj",
-	"version": "0.1.2",
+	"version": "2.0.0",
 	"engines": {
 		"vscode": "^1.38.0"
 	},
@@ -21,18 +21,55 @@
 	],
 	"keywords": [
 		"Dark Theme",
-		"Blue Theme",
-		"Pink Theme",
+		"Monochrome",
+		"Grayscale",
+		"Minimal",
 		"Theme",
 		"Themes"
 	],
 	"contributes": {
 		"themes": [
 			{
-				"label": "Bloc",
+				"label": "Bloc Ash",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Bloc-color-theme.json"
+				"path": "./themes/bloc-ash.json"
+			},
+			{
+				"label": "Bloc Stone",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bloc-stone.json"
+			},
+			{
+				"label": "Bloc Slate",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bloc-slate.json"
+			},
+			{
+				"label": "Bloc Carbon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bloc-carbon.json"
+			},
+			{
+				"label": "Bloc Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bloc-midnight.json"
+			},
+			{
+				"label": "Bloc Sand",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bloc-sand.json"
+			},
+			{
+				"label": "Bloc Graphite",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bloc-graphite.json"
 			}
 		]
+	},
+	"scripts": {
+		"generate-screenshots": "node scripts/generate-screenshots.mjs"
+	},
+	"devDependencies": {
+		"playwright": "^1.61.1"
 	}
 }
